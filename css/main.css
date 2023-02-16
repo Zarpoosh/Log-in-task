@@ -1,0 +1,45 @@
+@font-face {
+    font-family: iranyekan;
+    src: url(../font/iranyekanwebbold.ttf) format(truetype);
+}
+*{
+    font-family:iranyekan ;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background: linear-gradient(to right,rgba(47, 0, 255, 0.803),rgba(1, 69, 255, 0.684),rgba(5, 88, 255, 0.821));
+    background-size:400% 400% ;
+    animation: changebackground 4s infinite;
+}
+@keyframes changebackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* navbar */
+.nav-style{
+     background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7));
+}
+/* end of navbar */
+/* form */
+.bg-style{
+    border: 1px solid #eee;
+    background-color:rgba(253, 253, 253, 0.2);
+}
+/* end of form */
+
+/* contact */
+.footer-style{
+    background-color:rgba(253, 253, 253, 0.2) ;
+}
+/* end of contact */
